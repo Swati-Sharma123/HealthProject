@@ -1,0 +1,34 @@
+.navbarFlex{
+    text-align: center;
+   
+}
+.flex{
+    display: flex;
+}
+.navbarOne_flex{
+    margin: 0px;
+    padding: 10px;
+    display: flex;
+    background-color: aquamarine;
+
+}
+.atb_flex{
+    text-align: left;
+
+}
+
+.navbar_menu{
+    display: flex;
+}
+.menuFlex{
+display: flex;
+list-style: none;
+
+}
+.navbarTwo{
+    background-color: blueviolet;
+}
+.on
+{
+    text-align: center;
+}
