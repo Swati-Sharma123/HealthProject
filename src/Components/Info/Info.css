@@ -1,0 +1,64 @@
+.info_section{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+background-color:rgb(218, 208, 196);
+flex-direction: column;
+}
+.Infocontainer_container{
+}
+.btn{
+    background-color: rgb(44, 44, 207);
+    color: white;
+    margin-right: 15rem;
+    width: 4rem;
+    height: 3rem;
+    border-radius: 25px;
+    padding: 5px;
+}
+.titleDiv_flex{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 1.5rem;
+    padding: 25px;
+    justify-content: space-between;
+}
+.headFlex{
+    margin-left: 12rem;
+    width: 25rem;
+}
+.carDiv_grid{
+    gap: 1.5 rem;
+    margin-top: 3 remm;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    display: flex;
+    padding: 3rem;
+}
+.singleCard_grid{
+    background-color: white;
+    padding: 5rem 2rem;
+    border-radius: 10rem;    
+    gap: 2 rem;
+    text-align: center;
+    margin: auto;
+    height: 320px;
+    width: 90%;
+    max-width: 250px;
+ }
+.iconDiv_flex{
+    justify-content: center;
+    margin: auto;
+    background-color:rgb(39, 39, 158) ;
+    width: max-content;
+    height: 55px;
+    padding: 1rem;
+    border-radius: 3rem;
+    color: white;
+}
+.cardTitle{
+    padding-top: 4rem;
+    color: black;
+    font-weight: 700;
+}

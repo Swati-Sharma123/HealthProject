@@ -1,16 +1,36 @@
 .navbarFlex{
     text-align: center;
-   
+   position: fixed;
 }
 .flex{
     display: flex;
+    list-style: none;
+    margin-right: 300px;
+}
+.flexHead1{
+    margin-left: 500px;
+}
+.flexHead2{
+    margin-left: 40px;
+}
+
+.signIn{
+    margin-left: 90px;
+}
+.signUp{
+    margin-left: 30px;
+}
+.ExclamSign{
+height:20%;
+margin-left: 20px;
+
 }
 .navbarOne_flex{
+    justify-content: space-between;
     margin: 0px;
     padding: 10px;
     display: flex;
-    background-color: aquamarine;
-
+    background-color: rgb(163, 161, 161);
 }
 .atb_flex{
     text-align: left;
@@ -23,12 +43,25 @@
 .menuFlex{
 display: flex;
 list-style: none;
+margin-left: 520px;
 
 }
 .navbarTwo{
-    background-color: blueviolet;
+    background-color: white;
 }
 .on
 {
     text-align: center;
+}
+.listItem{
+    margin-right: 50px;
+
+}
+.btn_flex_btnOne{
+    margin-left:60px ;
+}
+.flightIcon{
+    height: 40px;
+    width: 40px;
+    margin: 10px;
 }

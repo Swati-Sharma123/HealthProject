@@ -1,0 +1,39 @@
+
+    .title_div{
+         text-align: center;
+    }
+    small{
+        letter-spacing: .8rem;
+        font-size: 13px;
+        color: black;
+        line-height: 1.5 rem;
+    }
+    .infodiv_grid{
+        margin-top: 2rem; 
+        gap: 1.5rem;  
+
+    }
+    .textDiv_grid{
+        gap: 1.5rem;
+    }
+    .singleInfo{
+
+    }
+    .number{
+        background-color: blue;
+        border-radius: 5rem;
+        width: 40px;
+        padding: 5px 12px;
+        text-align: center;
+        font-size: 13px;
+        font-weight: 700;
+        color: blanchedalmond;
+        
+    }
+    .imgDiv{
+        margin: auto;
+    }
+    img{
+        width: 100%;
+        max-width: 420px;
+    }
