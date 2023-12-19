@@ -1,45 +1,53 @@
-    .home{
-        padding-top: 10rem;
-        text-align: center;
-        gap: 2rem;
-        flex-direction: column;
-    }
-    .planeImg{
-        height: 100%;
-        width: 100%;
-    }
-    .mainText{
-        color: var(--blackcolor);
-        width: 40%;
-        margin-left: 40%;
-        margin-top: -60px;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 2.5rem;
-    }
-    .homeImages{
-        width: 100%;
-        margin: 1rem auto 0;
-        justify-content: center;
-        align-items: center;
-        border-radius: 5rem;
-    }
+/* .home
+{
+    padding-top: 10rem;
+    text-align: center;
+    gap: 2rem;
+    flex-direction: column;
+}
 
-    .videoDiv{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
+.planeImg
+{
+    height: 100%;
+    width: 100%;
+}
+.mainText
+{
+    color: var(--blackcolor);
+    width: 40%;
+    margin-left: 40%;
+    margin-top: -60px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.5rem;
+}
 
-    }
-    .video{
-        margin-left: 20%;
-            pointer-events: none;
-            border-radius: 10rem;
-            margin-bottom: 15%;
-        }
+.homeImages
+{
+    width: 100%;
+    margin: 1rem auto 0;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5rem;
+}
+
+.videoDiv
+{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+
+}
+
+.video
+{
+    pointer-events: none;
+    border-radius: 10rem;
+}
         
-        .plane{
+.plane
+{
     width: 50%;   
     height: 50%;   
     top: -10%; 
-            } 
+} */
