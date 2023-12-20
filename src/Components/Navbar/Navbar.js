@@ -4,6 +4,7 @@ import './Navbar.css';
 import  Sky from './../../Media/Sky.png'
 import navbarImg from './../../Media/navbarImg.png'
 
+<<<<<<< HEAD
 const Navbar = () => {
   return (
     <>
@@ -70,6 +71,31 @@ const Navbar = () => {
     </>
   )
 };
+=======
+export default function Navbar() 
+{
+  return (<div>
+    <nav>
+      <Link to="/">Home    </Link>
+      {/* <Link to="/Blog">Navbar</Link> */}
+      <Link to="/Search">Search    </Link>
+      <Link to="/Support">Support    </Link>
+      <Link to="/Info">Info    </Link>
+      <Link to="/Lounger">Lounger    </Link>
+      <Link to="/Travelers">Travelers    </Link>
+      <Link to="/Subscriber">Subscriber    </Link>
+      <Link to="/Footer">Footer    </Link>
+    </nav>
+    <Outlet />
+  </div>)
+}
+
+// const Base = () => {
+//   return (
+    
+//   )
+// };
+>>>>>>> c8c1eea4247f8dd1c5f0e7bfcfa0cd99c77a6887
 
  export default Navbar;
 

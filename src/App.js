@@ -11,24 +11,16 @@
   import Footer from './Components/Footer/Footer'
   import Support from './Components/Support/Support';
   export default function App() {
-    return (
-      // <div>
-      // <Navbar/>
- 
-      // <Home/>
-      // <Search/>
-      // <Support/>
-      // <Info/>
-      // <Lounger/>
-      // <Travelers/>
-      // <Subscriber/>
-      // <Footer/>
-
-      // </div>
-    <BrowserRouter>
+    return (<BrowserRouter>
       <Routes>
+<<<<<<< HEAD
         <Route path="/" element={< Navbar/>}>
           <Route index element={<Home />} />  
+=======
+        <Route path="/" element={<Navbar/>}>
+          <Route index element={<Home />} />  
+          {/* <Route path="home" element={<Home />} /> */}
+>>>>>>> c8c1eea4247f8dd1c5f0e7bfcfa0cd99c77a6887
           <Route path="search" element={<Search />} />
           <Route path="support" element={<Support />} />
           <Route path="info" element={<Info />} />
