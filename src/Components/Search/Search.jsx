@@ -7,22 +7,21 @@ export default function Search() {
     <div className='section_container_section'>
     <div className='btns_flex'>
     <div className='single_btn'>
-    <span>Economy</span>
+    <span className='section_class'>Economy</span>
     </div>
     <div className='single_btn'>
-    <span>Business Class</span>
+    <span className='section_class'>Business Class</span>
     </div>
     <div className='single_btn'>
-    <span>First Class</span>
+    <span className='section_class'>First Class</span>
     </div>
     </div>
     <div className='searchInputs_flex'>
     <div className='singleInputs_flex'>
     <div className='icon_div'>
-    
+    <i className="icon fa-solid fa-location-dot"></i>
     </div>
     <div className='texts'>
-    <i className="icon fa-solid fa-location-dot"></i>
     <h4>Location</h4>
     <input type='text' placeholder='Where do you want to go..?'/>
     </div>

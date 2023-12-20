@@ -1,6 +1,6 @@
 import React from 'react'
 import './Home.css';
-import bgvdo1 from "./../../Media/bgvdo1.mp4";
+import bgvdo from "./../../Media/bgvdo.mp4";
 import bgImg1 from './../../Media/bgImg1.png';
 
 
@@ -12,7 +12,9 @@ export default function Home() {
 </div>   
 <div className='homeImages flex'>
 <div className='videoDiv'>
-<video autoplay loop controls="controls" muted width= "800" height="350" className='video'> < source  src={bgvdo1} ></source> </video>
+<video  className='video' loop controls="controls" muted width= "1000" height="400" autoPlay > 
+< source  src={bgvdo} ></source>
+</video>
 <img className='plane' src={bgImg1} ></img>
 </div>
 

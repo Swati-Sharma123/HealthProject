@@ -10,7 +10,6 @@
   import Subscriber from './Components/Subscriber/Subscriber'
   import Footer from './Components/Footer/Footer'
   import Support from './Components/Support/Support';
-import Base from './Components/Base'
   export default function App() {
     return (
       // <div>
@@ -28,9 +27,8 @@ import Base from './Components/Base'
       // </div>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={< Base/>}>
-          <Route index element={<Navbar />} />  
-          <Route path="home" element={<Home />} />
+        <Route path="/" element={< Navbar/>}>
+          <Route index element={<Home />} />  
           <Route path="search" element={<Search />} />
           <Route path="support" element={<Support />} />
           <Route path="info" element={<Info />} />

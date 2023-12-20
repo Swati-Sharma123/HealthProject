@@ -5,17 +5,21 @@
     border-radius: 16px;
     row-gap: 2rem;
 }
-    .btns_flex{
+ .btns_flex{
         background: rgb(235, 230, 230);
         padding: .5rem;
+        display: flex;
         border-radius: 1rem;
         flex-direction: column;
         margin: auto;
         width: 100%;
-    }
-
+}
+.section_class{
+    display: flex;
+}
     .single_btn{
         padding: .8rem 1.5rem;
+        flex-direction: column;
         font-size: 13px;
         border-radius: 3 rem;
         width: 80%;
@@ -63,4 +67,10 @@ input{
         opacity: .5;
         
     }
+}
+.searchInputs_flex{
+    display: flex;
+}
+.singleInputs_flex{
+    display: flex;
 }
